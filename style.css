@@ -5,7 +5,10 @@ margin:0;
 
 .wrapper{
 width:100%;
-background-color:#777;
+background-image:url(condi.jpg);
+background-position: center top;
+background-repeat: repeat-y;
+background-size: contain;
 margin:0 auto;
 padding: 0;
 position:relative;
@@ -25,11 +28,24 @@ border: dotted;
 }
 
 .sidebar{
-
+height:150em;
 width:10%;
 min-width:15em;
 display:block;
 border:dotted;
+background-image: url(lol.png);
+background-repeat: repeat-y;
+background-position: center;
+}
+
+.sidebar h2{
+
+display:block;
+background-color: #ee3030;
+position: relative;
+width: 10em;
+margin: auto;
+text-align:center;
 }
 
 .recipe{
@@ -42,6 +58,11 @@ position:relative;
 width:100%;
 max-width:30em;
 margin:auto;
-clear:both;
 border:dotted;
 }
+#stage{
+position:relative;
+display:block;
+width: 80%;
+float: right;
+border: dotted;
