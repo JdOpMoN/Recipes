@@ -1,0 +1,47 @@
+/*CSS para recipes, chechar prop 1.*/
+body{
+margin:0;
+}
+
+.wrapper{
+width:100%;
+background-color:#777;
+margin:0 auto;
+padding: 0;
+position:relative;
+overflow:hidden;
+}
+
+header{
+position:relative;
+top:0px;
+margin:auto;
+display: block;
+box-sizing: border-box;
+width:100%;
+max-width:40em;
+text-align:center;
+border: dotted;
+}
+
+.sidebar{
+
+width:10%;
+min-width:15em;
+display:block;
+border:dotted;
+}
+
+.recipe{
+display:none;
+}
+
+footer{
+display:block;
+position:relative;
+width:100%;
+max-width:30em;
+margin:auto;
+clear:both;
+border:dotted;
+}
